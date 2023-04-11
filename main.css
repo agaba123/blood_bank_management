@@ -1,0 +1,107 @@
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+					.centered-button {
+			  display: block;
+			  margin: 0 auto;
+			  text-align: center;
+			  background-color: red;
+			  color: white;
+			  padding: 10px 20px;
+			  border: none;
+			  border-radius: 5px;
+			  font-size: 16px;
+			}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input, select {
+			display: block;
+			margin-bottom: 20px;
+			padding: 8px;
+			width: 80%;
+			border-radius: 4px;
+			border: 1px solid #ddd;
+			box-sizing: border-box;
+		}
+		button {
+			background-color: #F2583E;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+
+
+		th, td {
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid #ddd;
+		}
+
+		th {
+			background-color: #F2583E;
+			color: white;
+		}
+
+		tr:hover {
+			background-color: #F2583E;
+		}
+
+		.section {
+			margin-bottom: 40px;
+		}
+
+		.section-title {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		header {
+  background-color: #4bf2bd;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #F2583E;
+  padding: 12px 24px;
+  border-radius: 50px;
+  z-index: 999;
+}

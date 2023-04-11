@@ -1,0 +1,10 @@
+CREATE TABLE donors (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  blood_group VARCHAR(5) NOT NULL,
+  age INT(3) NOT NULL,
+  location VARCHAR(50) NOT NULL,
+  gender VARCHAR(10) NOT NULL,
+  contact VARCHAR(20) NOT NULL,
+  PRIMARY KEY (id)
+);
